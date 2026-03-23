@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narendra Pandrangi - Portfolio</title>
+    <meta name="description" content="Portfolio of Narendra Pandrangi, Software Developer showcasing projects such as AI Chatbot, Dispute Resolution Platform, and Smart Issue Board.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+    
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">NP<span>.</span></a>
+            <nav class="nav">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="btn btn-outline">Let's Connect</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="about" class="hero section">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Welcome to my space</span>
+                    <h1 class="hero-title">Hi, I'm <span class="gradient-text">Narendra Pandrangi</span></h1>
+                    <p class="hero-subtitle">A passionate developer crafting innovative, AI-powered solutions and robust full-stack web applications.</p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">View My Work <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i data-lucide="bot"></i>
+                            </div>
+                            <span class="project-date">July 2024 - October 2024</span>
+                        </div>
+                        <h3 class="project-title">AI Chatbot</h3>
+                        <p class="project-desc">Created an AI-powered chatbot using Python, with a simple and interactive interface designed in HTML and CSS. The chatbot integrates Gemini API keys to enable real-time, interactive responses to user queries. It serves as a helpful tool for providing information, answering questions, and guiding users through various tasks, demonstrating the power of integrating back-end logic with a friendly UI.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Gemini API</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i data-lucide="scale"></i>
+                            </div>
+                            <span class="project-date">July 2025 – March 2026</span>
+                        </div>
+                        <h3 class="project-title">AI-Powered Dispute Resolution Platform</h3>
+                        <p class="project-desc">Developed a full-stack web application that automates conflict resolution using Artificial Intelligence. Built the frontend using React (Vite) and the backend using FastAPI (Python), with Google Cloud Firestore for data storage and Firebase Authentication for secure user access. Integrated an LLM via Kutrim API to analyze disputes and generate structured mediation proposals. Implemented evidence upload with OCR (Tesseract.js) and an admin dashboard for case management. The platform enables secure digital negotiation, automated status tracking, and email notifications for efficient dispute handling.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React (Vite)</span>
+                            <span class="tech-tag">FastAPI</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Kutrim API</span>
+                            <span class="tech-tag">Tesseract.js</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-panel">
+                        <div class="project-header">
+                            <div class="project-icon">
+                                <i data-lucide="kanban"></i>
+                            </div>
+                            <span class="project-date">Nov 2025 – Dec 2026</span>
+                        </div>
+                        <h3 class="project-title">Smart Issue Board</h3>
+                        <p class="project-desc">Smart Issue Board is a web app for creating, tracking, and managing issues. Users log in using Firebase Authentication and all issue data is stored in Firestore. While creating issues, the system detects similar issues to reduce duplicates and applies rules like preventing "Open → Done" directly. The dashboard displays all issues with clear details and status controls, making the workflow simple and organized.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Firebase Auth</span>
+                            <span class="tech-tag">Firestore</span>
+                            <span class="tech-tag">Web App</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="skills-grid">
+                    <div class="skill-category glass-panel">
+                        <h3 class="skill-title">Programming</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-panel">
+                        <h3 class="skill-title">Web Technologies</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">PHP</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-panel">
+                        <h3 class="skill-title">Database & BI</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Power BI</span>
+                        </div>
+                    </div>
+                    <div class="skill-category glass-panel">
+                        <h3 class="skill-title">Tools & Testing</h3>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Git</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">GitHub</span>
+                            <span class="tech-tag">Gitea</span>
+                            <span class="tech-tag">Playwright</span>
+                            <span class="tech-tag">Unit Testing</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Education Background</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="education-timeline">
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022 - 2026</div>
+                        <h3 class="timeline-title">B.Tech – Information Technology</h3>
+                        <h4 class="timeline-school">MVGR College of Engineering, Vizianagaram</h4>
+                        <p class="timeline-score">CGPA - 8.37</p>
+                    </div>
+                    
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2022</div>
+                        <h3 class="timeline-title">Maths, Physics and Chemistry</h3>
+                        <h4 class="timeline-school">NRI Junior College, Vizianagaram</h4>
+                        <p class="timeline-score">Percentage - 94.2%</p>
+                    </div>
+
+                    <div class="timeline-item glass-panel">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">Secondary Education</h3>
+                        <h4 class="timeline-school">Spring Field High School</h4>
+                        <p class="timeline-score">CGPA - 9.7</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests" class="interests section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Strengths & Interests</h2>
+                    <div class="section-line"></div>
+                </div>
+                
+                <div class="interests-grid">
+                    <div class="interest-card glass-panel">
+                        <div class="interest-icon-wrapper">
+                            <i data-lucide="puzzle"></i>
+                        </div>
+                        <h3 class="interest-title">Problem Solving</h3>
+                        <p class="interest-desc">Enjoy tackling complex challenges and architecting efficient, scalable solutions.</p>
+                    </div>
+                    <div class="interest-card glass-panel">
+                        <div class="interest-icon-wrapper">
+                            <i data-lucide="users"></i>
+                        </div>
+                        <h3 class="interest-title">Leadership</h3>
+                        <p class="interest-desc">Capable of guiding teams, taking initiative, and driving projects to successful completion.</p>
+                    </div>
+                    <div class="interest-card glass-panel">
+                        <div class="interest-icon-wrapper">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <h3 class="interest-title">Quick Learner</h3>
+                        <p class="interest-desc">Adapt rapidly to new technologies, frameworks, and shifting project requirements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contact Section -->
+        <section id="contact" class="contact section">
+            <div class="container">
+                <div class="section-header text-center" style="margin-bottom: 3rem;">
+                    <h2 class="contact-title">Let's Create Something Amazing</h2>
+                    <p class="contact-desc">I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                </div>
+                
+                <div class="contact-form-container glass-panel">
+                    <form action="mailto:narendrapandrangi2005@gmail.com" method="POST" enctype="text/plain" class="contact-form">
+                        <div class="form-group row">
+                            <div class="input-field">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="input-field">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-field">
+                                <label for="location">Location</label>
+                                <input type="text" id="location" name="location" placeholder="City, Country" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-field">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-large btn-block">Send Message <i data-lucide="send"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Narendra Pandrangi. Designed & Built with ❤️</p>
+            <div class="social-links">
+                <a href="https://github.com/NarendraPandrangi" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i data-lucide="github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Smooth scroll for internal links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
